@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(75, 192, 192, 0.1);
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem;
+  padding-right: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: .5rem;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.chartContainer {
+  position: relative;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  flex: 1;
+
+  border: 1px solid #dc3545;
+  border-radius: 0.5rem;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chartInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chart {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
